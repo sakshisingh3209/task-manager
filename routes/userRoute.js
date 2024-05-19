@@ -109,11 +109,8 @@ router.put('profile/password', jwtAuthMiddleWare, async(req, res) => {
     }
 });
 
-//Logout route
 
-router.post('/logout', async(req, res) => {
 
-})
 
 
 module.exports = router;
